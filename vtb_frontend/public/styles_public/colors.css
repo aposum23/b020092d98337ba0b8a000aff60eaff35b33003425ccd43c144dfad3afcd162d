@@ -1,0 +1,18 @@
+:root {
+    --primary-background:#FFFFFF;
+    --primary-desktop-background:#009FDF;
+    --border-color:#CFCFCF;
+    --primary-font-color:#000000;
+    --shadow-color:rgba(0, 0, 0, 0.25);
+    --primary-color: #4E4E4E;
+    --button-background: #ECF1FF;
+    --button-desktop-background: #FFFFFF;
+    --button-desktop-color: #009FDF;
+    --button-hover-background: #ECF1FF;
+    --button-active-background: #C1EDFF;
+    --button-active-color: #009FDF;
+    --button-active-desktop-background: #001341;
+    --button-active-desktop-color: #FFFFFF;
+    --input-background: #ECF1FF;
+    --input-active-background: #00134140;
+}

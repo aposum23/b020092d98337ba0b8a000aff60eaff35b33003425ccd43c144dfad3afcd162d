@@ -1,0 +1,86 @@
+@media(max-width: 420px) {
+  .bottom {
+    z-index: 9999;
+    background: var(--primary-background);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 4.5rem;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+    box-shadow: 0px -4px 15px 0px rgba(150, 150, 150, 0.25);
+
+
+    & .material-icons-round {
+      font-size: 2rem;
+      line-height: 3rem;
+      transition: color .2s ease-in;
+    }
+
+    & .chapter-button {
+      background: var(--button-background);
+      border-radius: 90px;
+      height: 3rem;
+      width: 3rem;
+      transition: background .2s ease-in;
+    }
+
+    & .active-chapter {
+      background: var(--button-active-background);
+    }
+
+    & .active-icon {
+      color: var(--button-active-color);
+    }
+
+    & .close-button {
+      display: none;
+    }
+  }
+}
+
+@media(min-width: 992px) {
+  .bottom {
+    z-index: 9999;
+    background: var(--primary-desktop-background);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 6vw;
+    height: 100vh;
+    box-shadow: 0px -4px 15px 0px rgba(150, 150, 150, 0.25);
+
+    & .material-icons-round {
+      font-size: 2rem;
+      line-height: 3rem;
+      transition: color .2s ease-in;
+      color: var(--button-desktop-color)
+    }
+
+    & .chapter-button {
+      background: var(--button-desktop-background);
+      border-radius: 90px;
+      height: 3rem;
+      width: 3rem;
+      transition: background .2s ease-in;
+      cursor: pointer;
+    }
+
+    & .chapter-button:hover {
+      background: var(--)
+    }
+
+    & .active-chapter {
+      background: var(--button-active-desktop-background);
+    }
+
+    & .active-icon {
+      color: var(--button-active-desktop-color);
+    }
+
+    & .settings-button {
+      position: fixed;
+      bottom: 2rem;
+    }
+  }
+}
