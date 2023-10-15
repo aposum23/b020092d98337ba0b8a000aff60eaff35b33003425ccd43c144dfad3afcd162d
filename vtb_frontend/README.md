@@ -1,18 +1,22 @@
 # Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Рекомендуемая настройка IDE
 
-## Recommended IDE Setup
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (и отключите Vetur) + [TypeScript Vue Plugin (Волар)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Поддержка типов для импорта `.vue` в TS
 
-## Type Support For `.vue` Imports in TS
+TypeScript не может обрабатывать информацию о типе для импорта `.vue` по умолчанию, поэтому мы заменяем CLI `tsc` на `vue-tsc` для проверки типа. В редакторах нам нужен [Плагин TypeScript Vue (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin), чтобы языковая служба TypeScript знала о `.vue` типы.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Если автономный плагин TypeScript кажется вам недостаточно быстрым, Volar также реализовал [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669), который обеспечивает более высокую производительность. Вы можете включить его, выполнив следующие шаги:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+1. Отключите встроенное расширение TypeScript.
+   1. Запустите «Расширения: Показать встроенные расширения» из палитры команд VSCode.
+   2. Найдите «Функции языка TypeScript и JavaScript», щелкните правой кнопкой мыши и выберите «Отключить (рабочая область)».
+2. Перезагрузите окно VSCode, запустив «Разработчик: Перезагрузить окно» из палитры команд.
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## Запуск проекта
+
+1. Перейти в текущую директорию
+2. Установить зависимости командой `npm install`
+3. Запустить проект командой `npm run dev`
