@@ -25,8 +25,17 @@
 
 Для создания базы данных, заполнения ее тестовыми данными и запуска серверной части нужно: 
 1. установить MySQL server: `https://dev.mysql.com/downloads/mysql/`
-2. запустить скрипт **run.py**
-3. Запустить клиентскую часть, прочитав [README.md](https://github.com/aposum23/b020092d98337ba0b8a000aff60eaff35b33003425ccd43c144dfad3afcd162d/blob/main/vtb_frontend/README.md)
+2. Перейти в директорию Databases
+   * Создать файл settings.py, со следующим содержимым:
+   
+  user = <Пользователь БД><br>
+  password = <Пароль для доступа к БД><br>
+  host = "localhost"<br>
+  db_name = "banks_database"<br>
+  yandex_api_key = <API ключ яндекс><br>
+  
+4. запустить скрипт **run.py**
+5. Запустить клиентскую часть, прочитав [README.md](https://github.com/aposum23/b020092d98337ba0b8a000aff60eaff35b33003425ccd43c144dfad3afcd162d/blob/main/vtb_frontend/README.md)
 
 
 
