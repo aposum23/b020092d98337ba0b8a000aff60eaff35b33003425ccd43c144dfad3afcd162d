@@ -38,5 +38,9 @@
 5. Запустить клиентскую часть, прочитав [README.md](https://github.com/aposum23/b020092d98337ba0b8a000aff60eaff35b33003425ccd43c144dfad3afcd162d/blob/main/vtb_frontend/README.md)
 
 
-
-
+<h4>BackEnd разработчик</h4>
+<a href="https://t.me/haxf1">Владимир Шальнев</a>
+<h4>Дизайнер</h4>
+<a href="https://t.me/esvetikova">Екатерина Светикова</a>
+<h4>FrontEnd разработчик</h4>
+<a href="https://t.me/MishaDuhno">Духно Михаил</a>
