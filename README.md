@@ -1,1 +1,7 @@
-# b020092d98337ba0b8a000aff60eaff35b33003425ccd43c144dfad3afcd162d
+# pomogite
+
+## Создание БД
+Для создания базы данных нужно: 
+* установить MySQL server: `https://dev.mysql.com/downloads/mysql/`
+* запустить скрипт **create_db.py**
+* Для создания таблиц в базе данных в папке **Database** запустить скрипт **tables.py**

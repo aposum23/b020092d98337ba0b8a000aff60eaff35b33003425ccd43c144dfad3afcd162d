@@ -1,0 +1,87 @@
+.progress-bar {
+  background: var(--button-background);
+  border-radius: var(--border-radius-custom);
+}
+
+.progress-bar__aggregate {
+  background: var(--primary-desktop-background);
+  border-radius: var(--border-radius-custom);
+  display: inline-block;
+}
+
+.p-inputtext {
+  background: var(--dropdown-background);
+  border: none;
+}
+
+.p-button {
+  background: var(--button-desktop-color);
+  transition: all .2s ease-in;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.p-button:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.p-button:hover {
+  background: var(--button-hover-background);
+  color: var(--button-active-desktop-background);
+}
+
+.round-button {
+  border-radius: 100%;
+  width: .5rem;
+  color: var(--primary-font-color);
+  background: var(--dropdown-background);
+  transition: all .2s ease-in;
+}
+
+.round-button:hover {
+  background: var(--button-background);
+  color: var(--input-active-background);
+}
+
+.active-button {
+  background: var(--button-active-desktop-background) !important;
+  color: var(--secondary-font-color) !important;
+}
+
+.active-button:focus {
+  outline: none;
+  box-shadow: none !important;
+}
+
+.current-position-button {
+  background: transparent !important;
+  color: var(--primary-font-color);
+  right: 2rem;
+  border: none;
+}
+
+.current-position-button:hover {
+  outline: none;
+  box-shadow: none !important;
+}
+
+@media(max-width: 420px) {
+  .current-bank {
+    color: var(--primary-font-color);
+    height: 50vh;
+    background: var(--primary-background);
+    overflow-y: scroll;
+  }
+}
+
+@media(min-width: 992px) {
+  .current-bank {
+    color: var(--primary-font-color);
+    height: 100%;
+    width: 100%;
+    background: var(--primary-background);
+    overflow-y: scroll;
+    position: absolute !important;
+  }
+}

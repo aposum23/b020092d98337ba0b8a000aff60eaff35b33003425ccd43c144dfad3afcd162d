@@ -1,0 +1,23 @@
+.p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+  background: var(--button-active-color);
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@media(max-width: 420px){
+  .settings {
+    color: var(--primary-font-color);
+    height: 50vh;
+    background: var(--primary-background);
+    overflow-y: scroll;
+  }
+}
+
+@media(min-width: 992px){
+  .settings {
+    color: var(--primary-font-color);
+    height: 83vh;
+    background: var(--primary-background);
+    overflow-y: scroll;
+  }
+}

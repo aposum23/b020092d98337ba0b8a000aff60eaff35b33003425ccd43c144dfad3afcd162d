@@ -2,12 +2,14 @@
     --primary-background:#FFFFFF;
     --primary-desktop-background:#009FDF;
     --border-color:#CFCFCF;
-    --primary-font-color:#000000;
+    --primary-font-color:#002882;
+    --secondary-font-color: #ffffff;
     --shadow-color:rgba(0, 0, 0, 0.25);
-    --primary-color: #4E4E4E;
+    --primary-color-custom: #002882;
     --button-background: #ECF1FF;
     --button-desktop-background: #FFFFFF;
     --button-desktop-color: #009FDF;
+    --dropdown-background: #ecf1ff;
     --button-hover-background: #ECF1FF;
     --button-active-background: #C1EDFF;
     --button-active-color: #009FDF;
@@ -15,4 +17,5 @@
     --button-active-desktop-color: #FFFFFF;
     --input-background: #ECF1FF;
     --input-active-background: #00134140;
+    --load-level-color: #21A400;
 }

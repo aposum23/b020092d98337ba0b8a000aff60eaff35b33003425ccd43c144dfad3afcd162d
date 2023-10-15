@@ -3,19 +3,30 @@ body {
   display: block;
   overflow-x: hidden;
   overflow-y: hidden;
+  user-select: none;
+  color: var(--primary-font-color);
 }
 #app {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .material-icons-round {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+// Custom styles
 @import '@/assets/styles/layout/top-bar.scss';
 @import '@/assets/styles/layout/map.scss';
 @import '@/assets/styles/layout/bottom-bar.scss';
+@import '@/assets/styles/layout/current-bank.scss';
+@import '@/assets/styles/layout/dropdown.scss';
+@import '@/assets/styles/layout/dropdown-lists.scss';
+@import '@/assets/styles/layout/settings-menu.scss';
+@import '@/assets/styles/layout/additional-filters.scss';
+// PrimeVue
+@import 'primevue/resources/primevue.min.css';
 @import 'primeflex/primeflex.scss';
 @import 'primeicons/primeicons.css';
+// Material Icons
 @import 'material-icons/iconfont/material-icons.css';
+@import "primevue/resources/themes/lara-light-indigo/theme.css";

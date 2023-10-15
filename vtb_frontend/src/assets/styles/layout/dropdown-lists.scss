@@ -1,0 +1,35 @@
+.card {
+  background: var(--button-background);
+  border-radius: var(--border-radius-custom);
+}
+
+.card-date {
+  background: var(--button-active-background);
+  border-radius: var(--border-radius-custom);
+  color: var(--primary-font-color);
+}
+
+.add-favorite-button {
+  background: var(--primary-background);
+  border-radius: 90px;
+}
+
+@media(max-width: 420px) {
+  .list {
+    color: var(--primary-font-color);
+    height: 50vh;
+    width: 100vw;
+    background: var(--primary-background);
+    overflow-y: scroll;
+  }
+}
+
+@media(min-width: 992px) {
+  .list {
+    color: var(--primary-font-color);
+    height: 100%;
+    width: 30%;
+    background: var(--primary-background);
+    overflow-y: scroll;
+  }
+}

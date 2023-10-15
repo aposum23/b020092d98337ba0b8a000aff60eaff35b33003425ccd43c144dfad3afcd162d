@@ -1,0 +1,29 @@
+@media(max-width: 420px){
+  .dropdown-menu {
+    height: 50vh;
+    bottom: -50vh;
+    transition: bottom .3s ease-in;
+    position: fixed;
+    width: 100vw;
+  }
+
+  .dropdown-menu__open {
+    bottom: 0 !important;
+  }
+}
+
+@media(min-width: 992px){
+  .dropdown-menu {
+    height: 83vh;
+    width: 30vw;
+    top: 17vh;
+    left: -30vw;
+    transition: bottom .3s ease-in;
+    position: absolute;
+  }
+
+  .dropdown-menu__open {
+    left: 6vw !important;
+    width: 30vw;
+  }
+}

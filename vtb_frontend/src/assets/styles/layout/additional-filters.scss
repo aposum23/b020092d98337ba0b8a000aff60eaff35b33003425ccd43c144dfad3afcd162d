@@ -1,0 +1,29 @@
+.p-dropdown {
+  background: var(--dropdown-background) !important;
+  border-radius: 70px !important;
+  box-shadow: none;
+  height: 2.6rem;
+  border: 0;
+}
+
+.p-dropdown-label {
+  line-height: 1.3rem;
+  font-size: 16px !important;
+  background-color: transparent !important;
+}
+
+.dropdown-active {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: var(--button-active-color) !important;
+  background: var(--button-active-background) !important;
+}
+
+.additional-filters {
+  background: var(--primary-background);
+}
+
+@media (min-width: 992px){
+  .additional-filters {
+    top: 17vh;
+  }
+}

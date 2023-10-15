@@ -1,17 +1,19 @@
 @media(max-width: 420px) {
   .bottom {
+    transition: bottom .3s ease-in;
     z-index: 9999;
     background: var(--primary-background);
     position: fixed;
     bottom: 0;
     width: 100vw;
     height: 4.5rem;
-    border-top-left-radius: var(--border-radius);
-    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius-custom);
+    border-top-right-radius: var(--border-radius-custom);
     box-shadow: 0px -4px 15px 0px rgba(150, 150, 150, 0.25);
 
 
     & .material-icons-round {
+      color: var(--primary-color-custom);
       font-size: 2rem;
       line-height: 3rem;
       transition: color .2s ease-in;
@@ -44,6 +46,7 @@
     z-index: 9999;
     background: var(--primary-desktop-background);
     position: fixed;
+    color: var(--primary-font-color);
     left: 0;
     top: 0;
     width: 6vw;
