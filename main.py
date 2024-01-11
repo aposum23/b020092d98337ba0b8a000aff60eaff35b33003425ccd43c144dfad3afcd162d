@@ -134,4 +134,5 @@ def get_banks_in_radius():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # убран дебаг
+    app.run()
